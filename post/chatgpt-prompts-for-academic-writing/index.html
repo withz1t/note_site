@@ -1,0 +1,902 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/image/favicon.jpg">
+  <link rel="icon" href="/static/image/favicon.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="zt">
+  <meta name="keywords" content="java,golang,mysql,微服务,系统架构,笔记">
+  
+    <meta name="description" content="15个适用于学术写作的 ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing">
+<meta property="og:type" content="article">
+<meta property="og:title" content="转译-15个适用于学术写作的ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing）">
+<meta property="og:url" content="https://withesse.co/post/chatgpt-prompts-for-academic-writing/">
+<meta property="og:site_name" content="zt&#39;s Blog">
+<meta property="og:description" content="15个适用于学术写作的 ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042e804dcb23cd6bce0d63_Refine%20thesis%20statement%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042eca95fcda0c67b6dbe7_Analyze%20data%20and%20findings%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042efdb2732c49a2d6b862_Brainstorm%20research%20topics%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f1b2d3641e390dbed97_Develop%20research%20questions%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f3ab698a7f104a6d996_Proofread%20for%20clarity%20and%20conciseness%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f54cb684564de5cedb0_Assist%20with%20literature%20review%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f71888fbe5dc3ae44f3_Formulate%20hypothesis%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f9e68944556da77a53d_Develop%20a%20strong%20introduction%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042fbd2fba5f6a4fb44707_Create%20outline%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042fdda4f4e03740152ff1_Write%20sections%20of%20the%20paper%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042ff6731713773a1e8eaa_Format%20headings%20and%20subheadings%20effectively%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66043011478f723a2fe113de_Strengthen%20transitions%20between%20ideas%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/6604303e9afdfe1b783882e2_Correct%20grammar%20and%20syntax%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/660430634da4544b2d08cddb_Generate%20citations%20ChatGPT%20Prompt.webp">
+<meta property="og:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/6604307f74a79b5e04ae8c99_Develop%20argument%20ChatGPT%20Prompt.webp">
+<meta property="article:published_time" content="2024-04-01T11:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-01T11:00:00.000Z">
+<meta property="article:author" content="zt">
+<meta property="article:tag" content="ChatGPT">
+<meta property="article:tag" content="Prompts">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042e804dcb23cd6bce0d63_Refine%20thesis%20statement%20ChatGPT%20Prompt.webp">
+  
+  
+  
+  <title>转译-15个适用于学术写作的ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing） - zt&#39;s Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"withesse.co","root":"/","version":"1.9.7","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/static/image/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/atom.xml" title="zt's Blog" type="application/atom+xml">
+</head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 40vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>zt&#39;s Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/post/collections/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>Collections</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" rel="external nofollow noreferrer" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" rel="external nofollow noreferrer" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/static/image/default-02.webp') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle">转译-15个适用于学术写作的ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing）</span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-04-01 19:00" pubdate>
+          April 1, 2024 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          892 words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          8 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">转译-15个适用于学术写作的ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing）</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <div class="note note-success">
+            <p>文章转译自</p><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.godofprompt.ai/blog/chatgpt-prompts-for-academic-writing">https://www.godofprompt.ai/blog/chatgpt-prompts-for-academic-writing</a></p><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://igeekbb.com/2024/04/02/academicprompts/#15%20%E4%B8%AA%20ChatGPT%20Prompts%20%E5%8A%A9%E5%8A%9B%E5%AD%A6%E6%9C%AF%E5%86%99%E4%BD%9C">转译-15个适用于学术写作的 ChatGPT Prompts</a> 。</p>
+          </div>
+<blockquote>
+<p>Academic writing can be tough. To get a better result, you have to research new ideas and translate them into formal writing. </p>
+<p>Not to talk of the stress of fact checking, citing sources correctly, and keeping your writing neutral.</p>
+<p>But, there's good news! ChatGPT can be your secret tool for academic writing. </p>
+<p>This post will show you 10 ChatGPT prompts that will help you when writing.</p>
+<p>With these prompts, ChatGPT can help you find great essay topics, structure your argument, and even add some style to your writing.</p>
+<p>It can also help you organize your thoughts and turn a lot of information into a well-structured essay.</p>
+<p>Keep reading to discover how ChatGPT can be of help when writing your academic paper.</p>
+</blockquote>
+<blockquote>
+<p>学术论文写作可能很困难。为了获得更好的结果，你必须研究新的想法并将它们转化为正式的写作。</p>
+<p>更不用说在事实核查、准确引用资料以及维持文章客观性方面所面临的压力了。</p>
+<p>不过，好消息是：ChatGPT 能成为你学术写作的得力助手。</p>
+<p>本文将介绍 15 个 ChatGPT 提示，助你一臂之力。</p>
+<p>借助这些提示，ChatGPT 不仅能帮你锁定出色的论文议题、构建论证结构，还能为你的文字增添独特风格。</p>
+<p>它同样能助你梳理思绪，将繁杂信息整合成条理清晰的论文。</p>
+<p>继续阅读，探索 ChatGPT 如何在撰写学术论文过程中助你一臂之力。</p>
+</blockquote>
+<div class="note note-light">
+            <p><strong>可以通过鼠标和键盘控制</strong> 学术论文写作可能很困难。为了获得更好的结果，你必须研究新的想法并将它们转化为正式的写作。</p><p>更不用说在事实核查、准确引用资料以及维持文章客观性方面所面临的压力了。</p><p>不过，好消息是：ChatGPT 能成为你学术写作的得力助手。</p><p>本文将介绍 15 个 ChatGPT 提示，助你一臂之力。</p><p>借助这些提示，ChatGPT 不仅能帮你锁定出色的论文议题、构建论证结构，还能为你的文字增添独特风格。</p><p>它同样能助你梳理思绪，将繁杂信息整合成条理清晰的论文。</p><p>继续阅读，探索 ChatGPT 如何在撰写学术论文过程中助你一臂之力。</p>
+          </div>
+<h2 id="the-power-of-chatgpt-prompts-boosting-your-academic-writing"><strong>The Power of ChatGPT Prompts: Boosting Your Academic Writing</strong></h2>
+<p>Staring at a blank page is common for any writer, especially in academia.</p>
+<p>Here's how ChatGPT prompts can be helpful:</p>
+<p><strong>Brainstorming Ideas:</strong> Struggling to develop a central thesis?</p>
+<p>These prompts can outline your topic and research questions.</p>
+<p>ChatGPT can then generate ideas, relevant sources, and even counterarguments to get your creative juices flowing.</p>
+<p><strong>Structuring Your Work:</strong> Feeling lost in the organization of your paper? </p>
+<p>A prompt outlining your desired essay structure can help ChatGPT create a clear and concise framework, complete with transitions and logical flow.</p>
+<p><strong>Overcoming Writer's Block:</strong> Hitting a wall mid-essay?</p>
+<p>A prompt focusing on a specific point or argument can jumpstart your writing and help you bridge the gap between ideas.</p>
+<p><strong>Generating Citations and References:</strong> Referencing can be a time-consuming task.</p>
+<p>A prompt outlining your sources can help ChatGPT format citations in the academic style, saving you valuable time.</p>
+<p><strong>ALSO READ:</strong> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.godofprompt.ai/blog/make-money-with-chatgpt">10 Chatgpt Prompts for making money</a></p>
+<h3 id="chatgpt-prompts-for-academic-writing"><strong>15 ChatGPT Prompts for Academic Writing</strong></h3>
+<h3 id="refine-thesis-statement"><strong>1. Refine thesis statement:</strong></h3>
+<h3 id="chatgpt-ai-prompt"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a thesis advisor with a specialization in academic writing. Your task is to refine and enhance a student's thesis statement for their academic paper. The thesis statement provided by the student is: "[INITIAL THESIS STATEMENT]." Your goal is to critique this initial thesis statement for clarity, specificity, and academic rigor. Provide constructive feedback on how to make the thesis more concise, focused, and argumentative. Suggest ways to incorporate a clear stance, significant research questions, and the potential implications of the research. Ensure the refined thesis statement is well-defined, debatable, and sets a solid foundation for an interesting argument in their academic paper.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042e804dcb23cd6bce0d63_Refine%20thesis%20statement%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Refine thesis statement ChatGPT Prompt</figcaption>
+</figure>
+<p>Refine thesis statement ChatGPT Prompt</p>
+<h3 id="analyze-data-and-findings"><strong>2. Analyze data and findings:</strong></h3>
+<h3 id="chatgpt-ai-prompt-1"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Adopt the role of a data analyst within the context of academic writing. Your task is to analyze the data provided in the section "[DATA SECTION NAME]" of an academic paper. Begin by summarizing the key data points and findings. Identify patterns, correlations, or anomalies within the data. Discuss how these findings support or challenge the paper's thesis statement or major arguments. Evaluate the method used to gather the data for its strengths and weaknesses, considering factors like sample size, data collection methods, and potential biases. Conclude by discussing the implications of the findings for the field of study and suggesting areas for further research. Ensure your analysis is thorough, aim, and adheres to academic standards.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042eca95fcda0c67b6dbe7_Analyze%20data%20and%20findings%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Analyze data and findings ChatGPT Prompt</figcaption>
+</figure>
+<p>Analyze data and findings ChatGPT Prompt</p>
+<h3 id="brainstorm-research-topics"><strong>3. Brainstorm research topics:</strong></h3>
+<h3 id="chatgpt-ai-prompt-2"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>As a research advisor, your task is to brainstorm potential research topics for an academic writing project in "[FIELD OF STUDY]." Begin by identifying current trends, gaps, and emerging questions within this field that could lead to impactful research. Consider interdisciplinary approaches that could enrich the research perspective. Generate a list of at least five interesting research topics, each accompanied by a brief explanation of its significance, potential research questions, and the contribution to the field. Ensure that each topic is workable, original, and has a clear scope for in-depth academic investigation.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042efdb2732c49a2d6b862_Brainstorm%20research%20topics%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Brainstorm research topics ChatGPT Prompt</figcaption>
+</figure>
+<p>Brainstorm research topics ChatGPT Prompt</p>
+<h3 id="develop-research-questions"><strong>4. Develop research questions:</strong></h3>
+<h3 id="chatgpt-ai-prompt-3"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a research consultant tasked with developing research questions for an academic paper on the topic of " [RESEARCH TOPIC]." Start by identifying the major themes and subtopics related to the research topic that are ripe for exploration. Formulate a set of comprehensive research questions that are clear, focused, and conducive to in-depth academic investigation. Each question should aim to address a specific aspect of the research topic, uncovering new insights or contributing to the existing body of knowledge. Ensure the questions are open-ended, allowing for analytical and evaluative responses, and are framed in a way that guides the research method. Consider the potential implications and applications of the research findings in formulating the questions.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f1b2d3641e390dbed97_Develop%20research%20questions%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Develop research questions ChatGPT Prompt</figcaption>
+</figure>
+<p>Develop research questions ChatGPT Prompt</p>
+<h3 id="proofread-for-clarity-and-conciseness"><strong>5. Proofread for clarity and conciseness:</strong></h3>
+<h3 id="chatgpt-ai-prompt-4"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a proofreader specializing in academic writing. Your task is to review and edit a segment of an academic paper titled "[PAPER TITLE]." Focus on ensuring clarity, conciseness, and coherence in the writing. Identify any sentences or phrases that are ambiguous, overly complex, or unnecessarily verbose, and suggest precise and succinct alternatives. Pay attention to the logical flow of ideas, ensuring that each sentence contributes effectively to the argument or narrative. Check for consistency in terminology, style, and voice throughout the document. Highlight any jargon or technical terms that may need clarification for the paper's intended audience. Conclude your proofreading by verifying that the segment aligns with academic standards and enhances the overall readability and impact of the paper.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f3ab698a7f104a6d996_Proofread%20for%20clarity%20and%20conciseness%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Proofread for clarity and conciseness ChatGPT Prompt</figcaption>
+</figure>
+<p>Proofread for clarity and conciseness ChatGPT Prompt</p>
+<h3 id="assist-with-literature-review"><strong>6. Assist with literature review:</strong></h3>
+<h3 id="chatgpt-ai-prompt-5"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Adopt the role of a researcher conducting a comprehensive literature review for an academic paper on [RESEARCH TOPIC]. Your task involves identifying, analyzing, and synthesizing key findings, theories, and methodologies from a diverse range of sources related to the topic. Begin by formulating a simple research question or thesis statement that guides the scope of your review. Search for relevant academic journals, conference papers, books, and credible online resources. Evaluate each source for its credibility, relevance, and contribution to the field. Summarize the core arguments, evidence, and conclusions from each source, noting any patterns, discrepancies, or gaps in the literature. Critically assess the methodologies used in the studies, their limitations, and the implications of their findings. Organize the literature review thematically or chronologically, ensuring a logical flow that builds a coherent narrative around your research topic. Conclude by highlighting how your research will address the identified gaps or contribute new insights to the field. Ensure to adhere to the specific citation style and academic writing standards required by your institution.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f54cb684564de5cedb0_Assist%20with%20literature%20review%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Assist with literature review ChatGPT Prompt</figcaption>
+</figure>
+<p>Assist with literature review ChatGPT Prompt</p>
+<h3 id="formulate-hypothesis"><strong>7. Formulate hypothesis:</strong></h3>
+<h3 id="chatgpt-ai-prompt-6"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Adopt the role of an academic researcher in [RESEARCH AREA]. Your task is to plan a clear and concise hypothesis that addresses a specific research question within this area. The hypothesis should be based on existing literature, theories, or frameworks relevant to [RESEARCH AREA]. It must be testable, either through empirical research methods or qualitative analysis, and should contribute to the existing body of knowledge by addressing a gap or challenging an existing assumption. Ensure your hypothesis is specific, measurable, achievable, relevant, and time-bound (SMART). Provide a brief explanation of the rationale behind your hypothesis, linking it to key concepts, theories, or previous studies in the field.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f71888fbe5dc3ae44f3_Formulate%20hypothesis%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Formulate hypothesis ChatGPT Prompt</figcaption>
+</figure>
+<p>Formulate hypothesis ChatGPT Prompt</p>
+<h3 id="develop-a-strong-introduction"><strong>8. Develop a strong introduction:</strong></h3>
+<h3 id="chatgpt-ai-prompt-7"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of an academic researcher tasked with writing the introduction to a scholarly paper. Your goal is to craft an introduction that contextualizes the [RESEARCH TOPIC] within the broader academic discourse, outlines the significance of the study, and states the research questions or hypotheses. Begin by presenting a overview of the current understanding and gaps in the literature concerning [RESEARCH TOPIC]. Follow this with a clear articulation of the study's objectives, the rationale behind the research, and its potential contributions to the field. Ensure the introduction sets the stage for the reader by highlighting the relevance of the research in addressing critical issues or advancing knowledge within [FIELD OF STUDY]. Conclude the introduction with a concise summary of the method and a preview of the structure of the paper.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042f9e68944556da77a53d_Develop%20a%20strong%20introduction%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Develop a strong introduction ChatGPT Prompt</figcaption>
+</figure>
+<p>Develop a strong introduction ChatGPT Prompt</p>
+<h3 id="create-outline"><strong>9. Create outline:</strong></h3>
+<h3 id="chatgpt-ai-prompt-8"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>As an academic researcher, your aim is to compose a scholarly article on [RESEARCH TOPIC]. Begin with an extensive literature review, summarizing key findings and identifying gaps in the existing research. Formulate a clear research question or hypothesis based on these gaps. Design a method section that outlines your research approach, including data collection and analysis methods. Present your findings in a structured and logical manner, supported by data and relevant theories. Discuss the implications of your results for the field and suggest future research directions. Ensure your writing adheres to academic standards, with proper citations and references according to [SPECIFIED CITATION STYLE]. Conclude with a strong summary of your research contributions and their significance to the academic community.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042fbd2fba5f6a4fb44707_Create%20outline%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Create outline ChatGPT Prompt</figcaption>
+</figure>
+<p>Create outline ChatGPT Prompt</p>
+<h3 id="write-sections-of-the-paper"><strong>10. Write sections of the paper:</strong></h3>
+<h3 id="chatgpt-ai-prompt-9"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of an academic researcher in [YOUR FIELD]. Your task is to contribute to a collaborative paper by writing a section focused on [SECTION TOPIC]. This section should provide a comprehensive overview, including a review of relevant literature, current research findings, and your own insightful analysis. Ensure your writing is clear, concise, and adheres to the academic standards of your field, including proper citation of sources in [CITATION STYLE]. Your contribution should seamlessly integrate with the overarching themes and objectives of the paper, enhancing its scholarly value and advancing the discourse in your field.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042fdda4f4e03740152ff1_Write%20sections%20of%20the%20paper%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Write sections of the paper ChatGPT Prompt</figcaption>
+</figure>
+<p>Write sections of the paper ChatGPT Prompt</p>
+<h3 id="format-headings-and-subheadings-effectively"><strong>11. Format headings and subheadings effectively:</strong></h3>
+<h3 id="chatgpt-ai-prompt-10"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of an academic editor tasked with formatting the headings and subheadings of a research paper in [YOUR FIELD]. Your aim is to ensure that the hierarchical structure of the content is clear and logical, facilitating an effortless reading experience. Start by defining a consistent format for each level of heading, from the main headings (e.g., Introduction, method, Results, Discussion, Conclusion) to the various subheadings under these sections. Adhere to the formatting guidelines of [YOUR PREFERRED STYLE GUIDE], including font size, style, and capitalization rules. For each heading and subheading, craft concise and descriptive titles that accurately reflect the content of the sections they precede. Ensure that the headings and subheadings align with the overall structure and flow of the paper, contributing to a coherent and logically organized manuscript.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66042ff6731713773a1e8eaa_Format%20headings%20and%20subheadings%20effectively%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Format headings and subheadings effectively ChatGPT Prompt</figcaption>
+</figure>
+<p>Format headings and subheadings effectively ChatGPT Prompt</p>
+<h3 id="strengthen-transitions-between-ideas"><strong>12. Strengthen transitions between ideas:</strong></h3>
+<h3 id="chatgpt-ai-prompt-11"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a linguistic expert focusing on enhancing the coherence and flow of an academic paper in [YOUR FIELD]. Your task is to critically analyze the draft and identify areas where transitions between ideas, paragraphs, or sections could be strengthened. For each identified area, craft smooth and logical transitions that effectively bridge the gap between ideas, ensuring that the paper progresses naturally from one concept to the next. Employ a variety of transition techniques, such as signaling phrases (e.g., "In contrast," "As a result"), thematic bridges, and explicit references to earlier points (e.g., "Building upon the previously discussed concept of [CONCEPT],..."). Ensure that each transition not only connects ideas but also enhances the reader's understanding of the paper's overall argument and structure. Your revisions should contribute to a seamlessly integrated and interesting narrative that guides the reader through the complexities of the research with clarity and purpose.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/66043011478f723a2fe113de_Strengthen%20transitions%20between%20ideas%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Strengthen transitions between ideas ChatGPT Prompt</figcaption>
+</figure>
+<p>Strengthen transitions between ideas ChatGPT Prompt</p>
+<h3 id="correct-grammar-and-syntax"><strong>13. Correct grammar and syntax:</strong></h3>
+<h3 id="chatgpt-ai-prompt-12"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a meticulous proofreader with a strong background in [YOUR FIELD]. Your task is to scrutinize an academic manuscript, focusing specifically on correcting grammatical errors and refining syntax to meet the highest standards of academic writing. Pay close attention to subject-verb agreement, tense consistency, and the proper use of academic tone and vocabulary. Rectify any instances of passive voice where an active voice would be more direct and impactful. Examine complex sentences to ensure clarity and coherence, breaking down overly complicated structures if necessary. Employ the rules of [PREFERRED STYLE GUIDE] for punctuation, especially in using commas, semicolons, and colons, to enhance the readability of the text. Your goal is to produce a polished, error-free document that communicates ideas clearly, concisely, and effectively, without detracting from the scholarly content and contributions of the work.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/6604303e9afdfe1b783882e2_Correct%20grammar%20and%20syntax%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Correct grammar and syntax ChatGPT Prompt</figcaption>
+</figure>
+<p>Correct grammar and syntax ChatGPT Prompt</p>
+<h3 id="generate-citations"><strong>14. Generate citations:</strong></h3>
+<h3 id="chatgpt-ai-prompt-13"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a detail-oriented citation specialist within the academic field of [YOUR FIELD]. Your task is to compile and format citations for a range of sources cited within an academic paper. Begin by collecting all necessary information for each source, including authors' names, titles of works, publication dates, page numbers, and publisher details for books, or journal names, volume, and issue numbers for articles. Apply the citation style specified for the paper, such as APA, MLA, Chicago, or Harvard, ensuring strict adherence to the guidelines for in-text citations and the reference list or bibliography. For in-text citations, craft them to smoothly integrate within the text, contributing to the paper's academic integrity and flow. In the reference list, meticulously organize and format each citation, ensuring consistency and accuracy, so that readers can easily locate the original sources. Your efforts will uphold the scholarly credibility of the paper and respect intellectual property rights.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/660430634da4544b2d08cddb_Generate%20citations%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Generate citations ChatGPT Prompt</figcaption>
+</figure>
+<p>Generate citations ChatGPT Prompt</p>
+<h3 id="develop-argument"><strong>15. Develop argument:</strong></h3>
+<h3 id="chatgpt-ai-prompt-14"><strong>ChatGPT AI Prompt:</strong></h3>
+<blockquote>
+<p>Assume the role of a critical thinker and scholar in [YOUR FIELD]. Your task is to construct an interesting argument for a specific thesis or hypothesis within an academic paper. Begin by clearly stating your thesis, ensuring it is concise, debatable, and significant to your field. Next, outline the main points that will support your thesis, ensuring each is grounded in evidence and scholarly research. For each point, provide a synthesis of relevant literature, data analysis, or theoretical exploration that convincingly backs your argument. Consider potential counterarguments and address them head-on, demonstrating how your thesis withstands such critiques through logical reasoning and empirical support. Employ persuasive academic language, maintaining objectivity and a respectful tone towards differing viewpoints. Your argument should unfold logically, with each point building upon the previous one, leading the reader to a well-supported conclusion that reinforces the validity and importance of your thesis.</p>
+</blockquote>
+<p><strong>ChatGPT Response:</strong></p>
+<figure>
+<img src="https://assets-global.website-files.com/64808e3805a22fc1ca46ffe9/6604307f74a79b5e04ae8c99_Develop%20argument%20ChatGPT%20Prompt.webp" srcset="/static/image/loading.gif" lazyload alt="" /><figcaption>Develop argument ChatGPT Prompt</figcaption>
+</figure>
+<p>Develop argument ChatGPT Prompt</p>
+<h3 id="important-considerations"><strong>Important Considerations</strong></h3>
+<p>Here are some key points to remember when incorporating <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.godofprompt.ai/blog/best-chatgpt-prompts-for-entrepreneurs">ChatGPT prompts</a> and its generated content into your academic writing:</p>
+<p><strong>Accuracy and Fact-Checking:</strong> ChatGPT may not always provide perfectly accurate information, especially for factual topics.</p>
+<p>Always double-check the information generated against credible sources. </p>
+<p><strong>Bias and Fairness:</strong> The training data used for ChatGPT may contain biases.</p>
+<p>Be mindful of potential biases in the output, particularly when dealing with sensitive topics, and strive for a balanced perspective in your writing.</p>
+<p><strong>Citation and Originality:</strong> ChatGPT-generated content is not inherently plagiarism, but it's important to cite any content you directly use from the prompts or output.</p>
+<p>You should paraphrase and integrate the information into your own writing style. </p>
+<p><strong>Academic Integrity:</strong> Don't rely solely on ChatGPT to complete your assignments.</p>
+<p>Use it as a tool to brainstorm, develop ideas, and refine your writing, but ensure you understand the core concepts and arguments presented in your work.</p>
+<p><strong>Critical Thinking and Editing:</strong> The prompts and output are starting points, not final products. </p>
+<p>Critically evaluate the generated content, assess its relevance to your topic, and edit for clarity, coherence, and proper academic tone.</p>
+<p>By keeping these guidelines in mind, you can use ChatGPT prompts and their responses to improve your academic writing in a way that maintains uniqueness across your content.</p>
+<p><strong>ALSO READ:</strong> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.godofprompt.ai/blog/how-to-rewrite-content-with-chatgpt"><strong>How to Rewrite Content with ChatGPT</strong></a></p>
+<h3 id="conclusion-15-chatgpt-prompts-for-academic-writing"><strong>Conclusion: 15 ChatGPT Prompts for Academic Writing</strong></h3>
+<p>In summary, using ChatGPT can significantly improve your academic writing by offering help with research and ideas.</p>
+<p>It's important, though, to use it carefully to make sure your work remains honest and unique.</p>
+<p>As AI in education keeps growing, we should use these tools wisely, making sure they help rather than take over our work.</p>
+<p>This way, ChatGPT can make academic writing better and encourage more creative and cooperative learning.</p>
+<p>If you love this content, check out this <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.godofprompt.ai/blog/20-chatgpt-prompts-for-digital-products">chatgpt prompts we use to sell digital maketing products.</a></p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/AI/" class="category-chain-item">AI</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/ChatGPT/" class="print-no-link">#ChatGPT</a>
+      
+        <a href="/tags/Prompts/" class="print-no-link">#Prompts</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>转译-15个适用于学术写作的ChatGPT Prompts（15 ChatGPT Prompts for Academic Writing）</div>
+      <div>https://withesse.co/post/chatgpt-prompts-for-academic-writing/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>zt</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>April 1, 2024</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external nofollow noreferrer">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="external nofollow noreferrer">
+                  <span class="hint--top hint--rounded" aria-label="SA - Share-alike">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/post/llm-prompts/" title="ChatGPT Prompts">
+                        <span class="hidden-mobile">ChatGPT Prompts</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://cdn.staticfile.org/waline/2.15.5/waline.min.css')
+      Fluid.utils.createScript('https://cdn.staticfile.org/waline/2.15.5/waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"https://comments.withesse.co/","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       © 2024 | Powered by <a href="https://github.com/hexojs/hexo" rel="external nofollow noreferrer" target="_blank"><span>Hexo</span></a> with <a href="https://github.com/fluid-dev/hexo-theme-fluid" rel="external nofollow noreferrer" target="_blank"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
